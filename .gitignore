@@ -54,3 +54,5 @@ dkms.conf
 # Others
 build
 lcc
+softfloat
+validation

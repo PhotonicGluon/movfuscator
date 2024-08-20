@@ -68,7 +68,15 @@ _If you are building on a 64 bit system, ensure that you have a 32 bit libc
 available_ (for example, 'apt-get install libc6-dev-i386' or 'yum install
 glibc-devel.i686').
 
+You will also need `dos2unix`. Install using
+
+```bash
+sudo apt-get install dos2unix
 ```
+
+Afterwards start the build process using
+
+```bash
 git clone https://github.com/xoreaxeaxeax/movfuscator
 cd movfuscator
 ./build.sh
